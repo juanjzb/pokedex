@@ -6,6 +6,16 @@ html(lang="en")
     link(rel="stylesheet", href="css/styles.css")
     title Pokedex
   body
+    header.header
+      h1.header__title Catch'em All
+      h1.header__title Pokedex
+    #game.game
+      #loader.loader
+        .loader__pokeball-container
+          .loader__pokeball
+        .loader__text Loading...
+      img(src="", alt="")#poke-image.game__image
+      ul#poke-answers.game__answers
     img(src="", alt="" id="pokemon-img")
     ul#answers
     script(src="js/scripts-min.js")

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Pokemon-Solid';
+  src: url('/assets/fonts/Pokemon-Solid.ttf');
+}
 body {
-  background-color: #333;
+  background-color: var(--grey);
+  font-family: 'Pokemon-Solid', sans-serif;
+  overflow: hidden;
 }
